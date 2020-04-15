@@ -130,8 +130,11 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="logo-correios.png" />
     <Content Include="logo.png" />
+    <AndroidResource Include="logoCorreios.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
