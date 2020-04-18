@@ -11,7 +11,8 @@ namespace App01_ConsultarCep
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new App01_ConsultarCep.TipoPasta.Carrousel.IntroducaoApp();
         }
 
         protected override void OnStart()
