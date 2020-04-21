@@ -11,7 +11,7 @@ namespace App01_LayoutXF
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new App01_LayoutXF.MainPage());
         }
 
         protected override void OnStart()
