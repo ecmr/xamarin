@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:page="clr-namespace:App01_ControleXF"
+             x:Class="App01_ControleXF.Menu.Master">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Label Text="AtivityIndicator" />
+                <Button Text="START" x:Name="btnIndicator" BackgroundColor="Green" TextColor="Black" Clicked="GoActivityIndicator" />
+                <Label Text="ProgressBar" />
+                <Button Text="START" x:Name="btnProgressBar" BackgroundColor="Green" TextColor="Black" Clicked="GoProgressBar" />
+                <Button Text="BoxView" x:Name="btnBoxView" BackgroundColor="Green" TextColor="Black" Clicked="GoBoxViewPage" />
+                <Button Text="LabelPage" x:Name="btnLabelPage" BackgroundColor="Green" TextColor="Black" Clicked="GoLabelPage" />
+                <Button Text="Button" x:Name="btnButtonPage" BackgroundColor="Green" TextColor="Black" Clicked="GoButtonPage" />
+                <Button Text="EntryEditor" x:Name="btnEntryPage" BackgroundColor="Green" TextColor="Black" Clicked="GoEntryPage" />
+            </StackLayout>
+        </ContentPage> 
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <page:MainPage/>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
